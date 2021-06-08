@@ -5,7 +5,7 @@ def consoante_ou_vogal (letra):
         print(f"A letra {letra} é uma vogal!")
     elif letra in consoantes:
         print(f"A letra {letra} é uma consoante!")
-    elif letra == "w" or letra == "W": # W pode ser uma consoante ou uma volga
+    elif letra == "w" or letra == "W": # W pode ser uma consoante ou uma vogal
         print(f"{letra} pode ser uma vogal ou consoante!")
     elif letra.isnumeric(): #Verificando se o caractere é numérico
         print(f"{letra} é um número!")
